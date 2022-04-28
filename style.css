@@ -1,0 +1,273 @@
+body{
+    margin: 0px;
+color: gray;
+
+}
+.header1 {
+display: flex;
+justify-content: space-around;
+position: sticky ;
+ top: 0;
+ background-color: white;
+ height: 60px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #00c3a5;
+}
+.titre{
+    color: #00c3a5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
+}
+.titre1{
+    font-size: 35px;
+}
+.active{
+    color: #00c3a5;
+}
+.menu1{
+    font-size: 22px;
+     margin-top: 6px;   
+     color: gray;
+}
+.logo1{
+    margin: 20px;
+    color: #00c3a5;
+    font-size: 35px;
+    font-family: sans-serif;
+    }
+    .logo{
+        margin-top: 25px;
+        
+    }
+    .paragraphe{
+        display: flex;
+    justify-content: space-around;
+    
+    
+    }
+    .p1{
+        margin-left: 10%;
+    font-size: 19px;
+}
+    .p2{ 
+        margin-right: 10%;
+        font-size: 19px;
+    }
+    .service{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    .forpatients{
+       height: 350px;
+        width: 300px;
+      
+        margin-left: 10%;
+        background-color: #00c3a5;
+        border-radius: 5%;
+    }
+    .fordoctors{ height: 350px;
+        width: 300px;
+        border-radius: 5%;
+    background-color: #3d83df;
+    }
+    .forclinics{ height: 350px;
+        width: 300px;
+     margin-right: 10%;
+background-color: #1b2734;
+border-radius: 5%;}
+
+
+h1{color: white; padding-left: 15%; font-weight: 400;}
+.service p{
+    color: white;
+     padding-left: 15%;
+font-size:25px;
+
+
+}
+
+.input{
+    margin-top:17% ;
+    margin-left: 10%;
+    position:relative;
+    background-color:transparent;
+    color:azure;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    
+    
+}
+.input1{
+    margin-top: 7%;
+    margin-left: 10%;
+    background-color:transparent;
+    color:azure;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.input2{
+    margin-left: 10%;
+    background-color:transparent;
+    color:azure;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.logo234{height: 35px;
+width: 35px;
+padding-left: 15%;
+padding-top: 8%;
+}
+.introduction2{display: flex;
+justify-content: space-around;
+margin-top: 100px;
+
+}
+
+
+.textintroduction2{
+   margin-top:  4px; 
+    margin-left: 13%;
+    font-size: 30PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00c3a5;
+width: 30%;
+}
+.imageintroduction2{ display: flex;
+    flex-wrap: wrap;
+    margin-right: 15%;
+    justify-content: space-between;
+   }
+
+h6{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.platformm
+{
+    height: 600px;
+    width: 1344px;
+    background-color:#d5f5f6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.platformpartie1{
+
+
+}
+.textplatformpartie1{
+
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+.pplatformpartie1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00c3a5;
+font-size: 30px;
+    
+}
+.imageplatformpartie1{
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+
+.platformpartie2
+{
+    display: grid;
+ grid-template-columns: 220px 220px;grid-template-rows:250px 250px ;
+ column-gap: 20px;
+ row-gap: 20px;
+ margin-left: 20px;
+ margin-top: 30px;
+}
+
+.leader{
+    background-color: white;
+    border-radius: 4%;
+   
+
+}
+.patient{
+    background-color: white;
+    border-radius: 4%;
+}
+.appointments{
+    background-color: white;
+    border-radius: 4%;
+}
+.activedoctors{
+    background-color: white;
+    border-radius: 4%;
+}
+.platformpartie2 p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00c3a5;
+font-size: 25px;
+}
+.improve p { font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00c3a5;
+font-size: 30px;
+margin-top: 100px;
+margin-left: 35%;
+margin-right: 35%;
+}
+.improve h5{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.lesimages{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:350px 350px 350px ;
+    column-gap:30px ;
+    row-gap: 30px;
+    margin-left: 180px;
+    margin-top: 100px;
+    }
+.sounds{
+    margin-top: 100px;
+}
+    .sounds p {
+    
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[ type="button"]{
+    background-color:#3d83df ;
+    border-radius: 4%;
+    color: white;
+    height: 45px;
+    border: 0px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+}
+footer{
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
